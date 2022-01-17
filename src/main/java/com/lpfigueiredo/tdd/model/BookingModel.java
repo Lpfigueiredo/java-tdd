@@ -57,4 +57,15 @@ public class BookingModel {
     public void setNumberGuests(int numberGuests) {
         this.numberGuests = numberGuests;
     }
+
+    @Override
+    public String toString() {
+        return "BookingModel{" +
+                "id='" + id + '\'' +
+                ", reserveName='" + reserveName + '\'' +
+                ", checkIn=" + checkIn +
+                ", checkOut=" + checkOut +
+                ", numberGuests=" + numberGuests +
+                '}';
+    }
 }
